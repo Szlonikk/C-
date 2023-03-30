@@ -1,0 +1,23 @@
+# Ignoruj pliki PDF
+*.pdf
+
+# Ignoruj pliki binarne, wykonywalne i biblioteki
+*.o
+*.a
+*.so
+*.exe
+*.dll
+
+# Ignoruj pliki generowane przez kompilator
+*.d
+*.dep
+*.deps
+*.gcda
+*.gcno
+
+# Ignoruj pliki z katalogu "build"
+/build
+
+# Ignoruj pliki tymczasowe
+*~
+.*.swp
